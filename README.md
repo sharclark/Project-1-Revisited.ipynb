@@ -14,3 +14,9 @@ Shar Clark
 - The second highest coefficient is Outlet_Size_High. This shows that if that is the outlet size, sales were increased by an average of $495.82
 - The third highest coefficient is Outlet_Type_SuperMarket Type 2. This had a negative correlation. If this is the outlet type the sales were decreased by an average of $402.58. 
 
+### Random Forest Feature Importances
+<img width="899" alt="Screenshot 2023-05-25 at 8 43 54 PM" src="https://github.com/sharclark/Project-1-Revisited.ipynb/assets/123594410/a7409605-dfc6-490e-b3b1-fa06c4ce26b7">
+
+- The most important feature according to the Random Forest model was Item_MRP. This was not in the Linear Regression Coefficients. 
+- Item Weight is the 5th most important feature according to our Random Forest Model. This was also nt in the Linear Regression Coefficients. 
+- The other 3 features are in the top 5 of both models. 
