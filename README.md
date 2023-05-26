@@ -45,3 +45,12 @@ Item Visiblity is higher on the feature importances and Item weight has been inc
 - Item MRP - The more Item_MRP the higher predicted sales.
 -  Outlet_Type_Grocery Store - The lower the values in Grocery Store, the higher the predicted price.
 -  Outlet_Type_SuperMarket Type 3 - The higher the values in Outlet_Type_SuperMarket Type 3 the higer the sales.
+
+### Shap Force Plot - Max Year
+![Screenshot 2023-05-25 at 9 35 15 PM](https://github.com/sharclark/Project-1-Revisited.ipynb/assets/123594410/4d83b5b6-174e-48d1-84c5-b59e1d5501c6)
+ - The Item weight, outlet type, and item MRP is pushing the sale value higher, and the outlet type 3, Establishment year, and item visibility are pushing the value down. 
+ 
+### Shap Force Plot - Min Year
+![Screenshot 2023-05-25 at 9 39 21 PM](https://github.com/sharclark/Project-1-Revisited.ipynb/assets/123594410/f8095eee-73d9-449c-953c-c0fb3c1311b6)
+- - The year and outlet type_3 are pushing the sales higher, and the item_MRP are pushing the sales lower.
+
