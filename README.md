@@ -54,3 +54,11 @@ Item Visiblity is higher on the feature importances and Item weight has been inc
 ![Screenshot 2023-05-25 at 9 39 21 PM](https://github.com/sharclark/Project-1-Revisited.ipynb/assets/123594410/f8095eee-73d9-449c-953c-c0fb3c1311b6)
 - - The year and outlet type_3 are pushing the sales higher, and the item_MRP are pushing the sales lower.
 
+### Lime Explanation - Max Year
+![Screenshot 2023-05-25 at 9 45 59 PM](https://github.com/sharclark/Project-1-Revisited.ipynb/assets/123594410/a92a803f-66a7-42bb-857f-b444fe0a7746)
+- This lime explainer is showing that Outlet_type_Grocery store had the highest positive impact on predicting the sales for this model. However, the fact that Outlet_type_supermarket was lower than 1107 impacted the sales negatively. 
+
+### Lime Explanation - Min Year
+![Screenshot 2023-05-25 at 9 51 27 PM](https://github.com/sharclark/Project-1-Revisited.ipynb/assets/123594410/676056f8-88fd-4558-b4c0-5493a205fb8b)
+
+- This lime explainer shows that Outlet_Type_Grocery Store had the highest positive impact on sales. But because the MRP was lower than 98.82 it decreased the sales. 
